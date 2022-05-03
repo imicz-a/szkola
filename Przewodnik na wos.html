@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktywny przewodnik po gminie miejskiej Mińsk Mazowiecki</title>
+    <style>
+        body{
+            background-color:azure;
+        }
+        .container {
+            position: relative;
+            width:40vw;
+            height: 30vw;
+            background-color:darkblue;
+            border-radius: 20px;
+            padding: 5px;
+            margin:10px;
+            }
+        .container:hover .overlay {
+            bottom: 0;
+            height: 100%;
+        }
+        .container div img{
+            border-radius: 20px;
+            display:block;
+            width: 35vw;
+        }
+        .overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  border-radius: 20px;
+}
+        .grid{
+            display: grid;
+            grid-template-columns:  auto auto;
+            grid-row: auto;
+            justify-content: center;
+        }
+        .centerimg{display: grid; place-items: center;}
+        h1{
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 3vw;
+        }
+    </style>
+</head>
+<body>
+  <h1>Przewodnik po gminie miejskiej Mińsk Mazowiecki</h1>
+<div class="grid">
+    <a href="http://mzm-minskmaz.pl/o-muzeum/"><div class="container">
+        <div class="centerimg">
+            <img src="mzm.png" alt="">
+        </div>  
+        <div class="overlay">
+          <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align:center; font-size: 3vw;">Muzeum Ziemi Mińskiej</p>
+        </div>
+    </div></a>
+
+      <a href="Ławka himilsbacha.html"><div class="container">
+          <div class="centerimg">
+        <img src="ławkahimilsbacha.jpeg" alt=""></div>  
+        <div class="overlay">
+          <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align:center; font-size: 3vw;">Ławka himilsbacha</p>
+        </div>
+      </div></a>
+
+      <a href="https://mbpmm.pl/misja/"><div class="container">
+        <div class="centerimg">
+      <img src="biblioteka.jpeg" alt=""></div>  
+      <div class="overlay">
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align:center; font-size: 3vw;">Biblioteka Miejska</p>
+      </div>
+    </div></a>
+
+    <a href="https://zabytek.pl/pl/obiekty/minsk-mazowiecki-palac"><div class="container">
+        <div class="centerimg">
+      <img src="pałacdernałowiczów.jpeg" alt=""></div>  
+      <div class="overlay">
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align:center; font-size: 3vw;">Pałac Dernałowiczów</p>
+      </div>
+    </div></a>
+
+    <a href="https://www.minsk-maz.pl/663,urzad-miasta"><div class="container">
+        <div class="centerimg">
+      <img src="urząd.jpeg" alt=""></div>  
+      <div class="overlay">
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align:center; font-size: 3vw;">Urząd miasta</p>
+      </div>
+    </div></a>
+
+    <a href="https://salezjanieminsk.pl/pl/podstawowa/o-szkole"><div class="container">
+        <div class="centerimg">
+      <img src="salezjanie.jpeg" alt=""></div>  
+      <div class="overlay">
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align:center; font-size: 3vw;">PSSP i SLO</p>
+      </div>
+    </div></a>
+
+    <a href="https://mosir.org.pl/2012-04-11-11-52-26"><div class="container">
+      <div class="centerimg">
+    <img src="mosir.jpeg" alt=""></div>  
+    <div class="overlay">
+      <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align:center; font-size: 3vw;">Mosir</p>
+    </div>
+  </div></a>
+
+  <a href="Mapa mińska2.png"><div class="container">
+    <div class="centerimg">
+  <img src="Mapa mińska.png" alt=""></div>  
+  <div class="overlay">
+    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align:center; font-size: 3vw;">Położenie na mapie</p>
+  </div>
+    </div></a>
+</div>
+</body>
+</html>
